@@ -243,7 +243,7 @@ if __name__ == '__main__':
     print('Driver Launching...')
 
     # driver = Firefox()
-    driver = Chrome()
+    driver = webdriver.Chrome()
 
     if sys.platform == 'darwin':  # macOS
         phantomjs_path = os.path.join('phantomjs', 'phantomjs-darwin')
